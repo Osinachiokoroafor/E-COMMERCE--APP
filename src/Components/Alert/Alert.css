@@ -1,0 +1,38 @@
+  .header-alert{
+    background: rgba(35, 133, 109, 1);
+    padding: 1rem 0;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header-alert {
+      display: none;
+    }
+  }
+  
+  .contact {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .follow{
+    display: flex;
+    align-items: center;
+  }
+  
+  .social {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .social img {
+    width: 1.125rem;
+    height: 1.125rem;
+    cursor: pointer;
+  }

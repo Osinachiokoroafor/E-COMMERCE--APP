@@ -1,0 +1,54 @@
+.design{
+    background-image: url('/images/background.png');
+    height: 80vh;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.wood{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.wood h5{
+    color:rgba(35, 166, 240,1) ;
+    font-weight: 700;
+    line-height: 24px  
+}
+
+.wood h2{
+line-height: 35px;
+width: 470px ;
+letter-spacing: 0.2px ;
+margin-bottom: 20px;
+}
+
+.wood p{
+    font-size: 14px;
+    width: 480px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.wood h3{
+ color: rgba(35, 133, 109,1);
+ line-height: 50px;
+ font-weight: 700;
+}
+.btn{
+    border-radius: 2.5px;
+    margin-top: 20px;
+    background-color: rgba(35, 166, 240,1);
+    padding: 10px;
+    font-weight: 700;
+    color:rgba(255, 255, 255,1) ;
+    border: none;
+    padding: 15px 40px;
+}
